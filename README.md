@@ -22,7 +22,7 @@ To use this module in your Terraform configuration, include the following:
 
 ```HCL
 module "my_vpc" {
-  source = "git::https://github.com/user/terraform-aws-vpc.git"
+  source = "git::ssh://git@github.com/VasudhaJha/terraform-aws-vpc.git"
   vpc_cidr           = "10.0.0.0/16"
   vpc_name           = "MyAppVPC"
   public_subnet_cidr  = "10.0.1.0/24"
